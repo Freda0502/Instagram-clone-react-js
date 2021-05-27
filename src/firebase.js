@@ -1,4 +1,6 @@
 import firebase from 'firebase'
+import 'firebase/storage'
+
 const firebaseApp = firebase.initializeApp({
   apiKey: 'AIzaSyBrGEMT3MjduOc9Tshvhql6pt-G9dCKPPI',
   authDomain: 'instagram-react-d8ca5.firebaseapp.com',
